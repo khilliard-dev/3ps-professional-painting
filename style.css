@@ -135,11 +135,12 @@ html, body {
   }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background-color: var(--navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    width: 100%;
 }
 
   .navbar nav a {
@@ -157,14 +158,16 @@ html, body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links a {
-    color: white;
+    color: #001f3f;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .nav-links a:hover {
@@ -250,5 +253,15 @@ html, body {
 
 .contact-form button {
   width: 100%;
+}
+
+.logo-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.big-logo {
+    width: 300px;
+    height: auto;
 }
 }
