@@ -135,13 +135,13 @@ html, body {
   }
 
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 0;
-    width: 100%;
+    background-color: #001f3f;
+    padding: 15px 0;
 }
+
 
   .navbar nav a {
     margin: 10px;
@@ -154,25 +154,25 @@ html, body {
   object-fit: contain;
 }
 
-/* NAV LINKS */
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
-    padding: 0;
+    gap: 40px;
     margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
-    color: #001f3f;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .nav-links a:hover {
-    color: var(--red);
+    color: #ff4d4d;
 }
+
 
 /* About Page */
 .about-section {
