@@ -137,21 +137,10 @@ html, body {
 .navbar {
     width: 100%;
     display: flex;
-    justify-content: center;
-    background-color: #001f3f;
+    justify-content: center;   /* centers the whole nav bar */
+    align-items: center;
+    background-color: #001f3f; /* your navy */
     padding: 15px 0;
-}
-
-
-  .navbar nav a {
-    margin: 10px;
-    display: inline-block;
-  }
-
-.nav-logo {
-  height: 50px;
-  width: auto;
-  object-fit: contain;
 }
 
 .nav-links {
